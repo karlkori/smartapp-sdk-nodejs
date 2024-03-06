@@ -20,7 +20,6 @@
     "start": "node ./smart-app.js",
     "debug": "node --inspect ./lib/smart-app.js",
     "snyk-protect": "snyk protect",
-    "prepare": "npm run snyk-protect",
     "doc-gen": "typedoc --out docsrc --plugin typedoc-plugin-markdown lib && node ./scripts/docgen-post-process.js"
   },
   "engines": {
